@@ -12,28 +12,11 @@
   -->
   <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
 
-  <!--
-    - custom css link
-  -->
-  <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+ 
 
   <style>
 
-          /*-----------------------------------*\ 
-  #style.css
-\*-----------------------------------*/
 
-/**
- * copyright 2022 @codewithsadee 
- */
-
-
-
-
-
-/*-----------------------------------*\ 
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 .light-theme {
 
@@ -57,9 +40,7 @@
 
 .dark-theme {
 
-/**
- * dark theme colors 
- */
+
 
 --background-primary: hsl(218, 23%, 23%);
 --background-secondary: hsl(220, 26%, 14%);
@@ -1107,112 +1088,6 @@ header .flex-wrapper {
 
 <body class="light-theme">
 
-  <!--
-    - #HEADER
-  -->
-
-  <header>
-
-    <!-- <div class="container">
-
-      <nav class="navbar">
-
-        <a href="#">
-          <img src="./assets/images/logo-light.svg" alt="Devblog's logo" width="150" class="logo-light">
-          <img src="./assets/images/logo-dark.svg" alt="Devblog's logo" width="150" class="logo-dark">
-        </a>
-
-        <div class="btn-group">
-
-          <button class="theme-btn theme-btn-mobile light">
-            <ion-icon name="moon" class="moon"></ion-icon>
-            <ion-icon name="sunny" class="sun"></ion-icon>
-          </button>
-
-          <button class="nav-menu-btn">
-            <ion-icon name="menu-outline"></ion-icon>
-          </button>
-
-        </div>
-
-        <div class="flex-wrapper"> -->
-
-          <!-- <ul class="desktop-nav">
-
-            <li>
-              <a href="#" class="nav-link">Home</a>
-            </li>
-
-            <li>
-              <a href="#" class="nav-link">About Me</a>
-            </li>
-
-            <li>
-              <a href="#" class="nav-link">Contact</a>
-            </li>
-
-          </ul> -->
-
-          <!-- <button class="theme-btn theme-btn-desktop light">
-            <ion-icon name="moon" class="moon"></ion-icon>
-            <ion-icon name="sunny" class="sun"></ion-icon>
-          </button>
-
-        </div>
-
-        <div class="mobile-nav">
-
-          <button class="nav-close-btn">
-            <ion-icon name="close-outline"></ion-icon>
-          </button>
-
-          <div class="wrapper">
-
-            <p class="h3 nav-title">Main Menu</p>
-
-            <ul>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Home</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#" class="nav-link">About Me</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#" class="nav-link">Contact</a>
-              </li>
-            </ul>
-
-          </div> -->
-
-          <!-- <div>
-
-            <p class="h3 nav-title">Topics</p>
-
-            <ul>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Database</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#" class="nav-link">Accessibility</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#" class="nav-link">Web Performance</a>
-              </li>
-            </ul>
-
-          </div>
-
-        </div>
-
-      </nav>
-
-    </div>
-
-  </header> -->
 
 
 
@@ -1239,10 +1114,7 @@ header .flex-wrapper {
             Specialized in JavaScript and PHP
           </p>
 
-          <!-- <div class="btn-group">
-            <a href="#" class="btn btn-primary">Contact Me</a>
-            <a href="#" class="btn btn-secondary">About Me</a>
-          </div> -->
+        
 
         </div>
 
@@ -1269,9 +1141,7 @@ header .flex-wrapper {
 
       <div class="container">
 
-        <!--
-          - BLOG SECTION
-        -->
+     
 
         <div class="blog">
 
@@ -1413,45 +1283,7 @@ the collagen and elastin in our skin break down. Both collagen and elastin
             </div>
 
 
-            <!-- <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="./assets/images/blog-4.png" alt="Dynamically Securing Databases using Hashicorp Vault"
-                  width="250" class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Database</button>
-
-                <h3><a href="" class="h3">Dynamically Securing Databases using Hashicorp Vault</a></h3>
-
-                <p class="blog-text">
-                  Nowadays, it's hard to profoundly talk about security in the IT industry, since it has to be
-                  considered on so many
-                  different levels: from securing code chunks, securing containers, up to securing complex
-                  infrastructures and defining
-                  strong authorization and authentication policies across the enterprise.
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="./assets/images/cartoon.jpg" alt="Julia walker" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Manshi Bharti</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-11-20">Nov 20, 2021</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT4M">4 min</time>
-                    </p>
-                  </div>
-
-                </div> -->
+            
 
               </div>
 
@@ -1464,210 +1296,7 @@ the collagen and elastin in our skin break down. Both collagen and elastin
 
 
 
-        <!--
-          - ASIDE
-        -->
-
-        <!-- <div class="aside">
-
-          <div class="topics">
-
-            <h2 class="h2">Topics</h2>
-
-            <a href="#" class="topic-btn">
-              <div class="icon-box">
-                <ion-icon name="server-outline"></ion-icon>
-              </div>
-
-              <p>Database</p>
-            </a>
-
-            <a href="#" class="topic-btn">
-              <div class="icon-box">
-                <ion-icon name="accessibility-outline"></ion-icon>
-              </div>
-
-              <p>Accessibility</p>
-            </a>
-
-            <a href="#" class="topic-btn">
-              <div class="icon-box">
-                <ion-icon name="rocket-outline"></ion-icon>
-              </div>
-
-              <p>Web Performance</p>
-            </a>
-
-          </div>
-
-          <div class="tags">
-
-            <h2 class="h2">Tags</h2>
-
-            <div class="wrapper">
-
-              <button class="hashtag">#mongodb</button>
-              <button class="hashtag">#nodejs</button>
-              <button class="hashtag">#a11y</button>
-              <button class="hashtag">#mobility</button>
-              <button class="hashtag">#inclusion</button>
-              <button class="hashtag">#webperf</button>
-              <button class="hashtag">#optimize</button>
-              <button class="hashtag">#performance</button>
-
-            </div>
-
-          </div>
-
-          <div class="contact">
-
-            <h2 class="h2">Let's Talk</h2>
-
-            <div class="wrapper">
-
-              <p>
-                Do you want to learn more about how I can help your company overcome problems? Let us have a
-                conversation.
-              </p>
-
-              <ul class="social-link">
-
-                <li>
-                  <a href="#" class="icon-box discord">
-                    <ion-icon name="logo-discord"></ion-icon>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="icon-box twitter">
-                    <ion-icon name="logo-twitter"></ion-icon>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="icon-box facebook">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                  </a>
-                </li>
-
-              </ul>
-
-            </div>
-
-          </div> -->
-
-          <!-- <div class="newsletter">
-
-            <h2 class="h2">Newsletter</h2>
-
-            <div class="wrapper">
-
-              <p>
-                Subscribe to our newsletter to be among the first to keep up with the latest updates.
-              </p>
-
-              <form action="#">
-                <input type="email" name="email" placeholder="Email Address" required>
-
-                <button type="submit" class="btn btn-primary">Subscribe</button>
-              </form>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div> -->
-
-    
-
-  </main>
-
-
-
-
-
-  <!--
-    - #FOOTER
-  -->
-
-  <!-- <footer>
-
-    <div class="container">
-
-      <div class="wrapper">
-
-        <a href="#" class="footer-logo">
-          <img src="./assets/images/logo-light.svg" alt="DevBlog's Logo" width="150" class="logo-light">
-          <img src="./assets/images/logo-dark.svg" alt="DevBlog's Logo" width="150" class="logo-dark">
-        </a>
-
-        <p class="footer-text">
-          Learn about Web accessibility, Web performance, and Database management.
-        </p>
-
-      </div>
-
-      <div class="wrapper">
-
-        <p class="footer-title">Quick Links</p>
-
-        <ul>
-
-          <li>
-            <a href="#" class="footer-link">Advertise with us</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">About Us</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Contact Us</a>
-          </li>
-
-        </ul>
-
-      </div>
-
-      <div class="wrapper">
-
-        <p class="footer-title">Legal Stuff</p>
-
-        <ul>
-
-          <li>
-            <a href="#" class="footer-link">Privacy Notice</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Cookie Policy</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Terms Of Use</a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </div>
-
-    <p class="copyright">
-      &copy; Copyright 2022 <a href="#">DevBlog</a>
-    </p>
-
-  </footer> -->
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
+       
   <script> 
 
   'use strict';
